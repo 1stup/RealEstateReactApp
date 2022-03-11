@@ -37,11 +37,15 @@ const Header = () => {
         />
       </div>
       <div className={style.headerItems}>
-        <Link href='/Properties' passHref >
+        <Link href='/properties' >
           <div className={style.headerItem}> Properties </div>
         </Link>
+        <Link href='/tenants'>
         <div className={style.headerItem}> Tenants </div>
+        </Link>
+        <Link href='/dashboard'>
         <div className={style.headerItem}> Dashboard </div>
+        </Link>
         <div className={style.headerItem}>Account</div>
         <div className={style.headerIcon}>
           < CgProfile />
